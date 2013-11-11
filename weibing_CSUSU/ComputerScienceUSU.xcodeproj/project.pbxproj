@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		803280DF1773E997001C2EEE /* ComputerScienceDepartment-cs.usu.edu_kaywa.me_in9PO.png in Resources */ = {isa = PBXBuildFile; fileRef = 803280DE1773E997001C2EEE /* ComputerScienceDepartment-cs.usu.edu_kaywa.me_in9PO.png */; };
+		806F16AA17697A0D00667E08 /* CSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 806F16A817697A0D00667E08 /* CSHomeViewController.m */; };
+		806F16AB17697A0D00667E08 /* CSHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 806F16A917697A0D00667E08 /* CSHomeViewController.xib */; };
+		806F16B017697E7500667E08 /* computer_science_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 806F16AE17697E7500667E08 /* computer_science_logo.png */; };
+		806F16B117697E7500667E08 /* USU_horizontal_stacked_logo_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 806F16AF17697E7500667E08 /* USU_horizontal_stacked_logo_black.png */; };
+		806F16B8176982B100667E08 /* cs.png in Resources */ = {isa = PBXBuildFile; fileRef = 806F16B6176982B100667E08 /* cs.png */; };
+		806F16B9176982B100667E08 /* WelcomeLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 806F16B7176982B100667E08 /* WelcomeLogo.png */; };
+		806F16BC176986C700667E08 /* 47-fuel.png in Resources */ = {isa = PBXBuildFile; fileRef = 806F16BA176986C700667E08 /* 47-fuel.png */; };
+		806F16BD176986C700667E08 /* 86-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 806F16BB176986C700667E08 /* 86-camera.png */; };
+		807519921766DBFA00C78B64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807519911766DBFA00C78B64 /* UIKit.framework */; };
+		807519941766DBFA00C78B64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807519931766DBFA00C78B64 /* Foundation.framework */; };
+		807519961766DBFA00C78B64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807519951766DBFA00C78B64 /* CoreGraphics.framework */; };
+		8075199C1766DBFA00C78B64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8075199A1766DBFA00C78B64 /* InfoPlist.strings */; };
+		8075199E1766DBFA00C78B64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8075199D1766DBFA00C78B64 /* main.m */; };
+		807519A21766DBFA00C78B64 /* USUCSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 807519A11766DBFA00C78B64 /* USUCSAppDelegate.m */; };
+		807519A41766DBFA00C78B64 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 807519A31766DBFA00C78B64 /* Default.png */; };
+		807519A61766DBFA00C78B64 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 807519A51766DBFA00C78B64 /* Default@2x.png */; };
+		807519A81766DBFA00C78B64 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 807519A71766DBFA00C78B64 /* Default-568h@2x.png */; };
+		807519AB1766DBFA00C78B64 /* USUCSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807519AA1766DBFA00C78B64 /* USUCSViewController.m */; };
+		807519AE1766DBFA00C78B64 /* USUCSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 807519AC1766DBFA00C78B64 /* USUCSViewController.xib */; };
+		807D040F177420DF0096F899 /* USUCSAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807D040D177420DF0096F899 /* USUCSAboutViewController.m */; };
+		807D0410177420DF0096F899 /* USUCSAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 807D040E177420DF0096F899 /* USUCSAboutViewController.xib */; };
+		807D0414177423E80096F899 /* USUCSChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807D0412177423E80096F899 /* USUCSChatViewController.m */; };
+		807D0415177423E80096F899 /* USUCSChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 807D0413177423E80096F899 /* USUCSChatViewController.xib */; };
+		807D0418177425EF0096F899 /* StreamCom.m in Sources */ = {isa = PBXBuildFile; fileRef = 807D0417177425EF0096F899 /* StreamCom.m */; };
+		807D041C177431610096F899 /* USUCSProgramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807D041A177431610096F899 /* USUCSProgramViewController.m */; };
+		807D041D177431610096F899 /* USUCSProgramViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 807D041B177431610096F899 /* USUCSProgramViewController.xib */; };
+		807D0421177431760096F899 /* USUCSResearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807D041F177431760096F899 /* USUCSResearchViewController.m */; };
+		807D0422177431760096F899 /* USUCSResearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 807D0420177431760096F899 /* USUCSResearchViewController.xib */; };
+		807D0426177431860096F899 /* USUCSPeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807D0424177431860096F899 /* USUCSPeopleViewController.m */; };
+		807D0427177431860096F899 /* USUCSPeopleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 807D0425177431860096F899 /* USUCSPeopleViewController.xib */; };
+		807D042B177431940096F899 /* USUCSCourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807D0429177431940096F899 /* USUCSCourseViewController.m */; };
+		807D042C177431940096F899 /* USUCSCourseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 807D042A177431940096F899 /* USUCSCourseViewController.xib */; };
+		807D0430177431A30096F899 /* USUCSContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807D042E177431A30096F899 /* USUCSContactViewController.m */; };
+		807D0431177431A30096F899 /* USUCSContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 807D042F177431A30096F899 /* USUCSContactViewController.xib */; };
+		807D043A17754AE90096F899 /* MS-images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 807D043817754AE90096F899 /* MS-images.jpeg */; };
+		807D043B17754AE90096F899 /* PHD-image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 807D043917754AE90096F899 /* PHD-image.jpeg */; };
+		807D043F17754CBF0096F899 /* ProDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807D043D17754CBF0096F899 /* ProDetailedViewController.m */; };
+		807D044017754CBF0096F899 /* ProDetailedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 807D043E17754CBF0096F899 /* ProDetailedViewController.xib */; };
+		807D0444177560710096F899 /* USUCSAddNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807D0442177560710096F899 /* USUCSAddNewsViewController.m */; };
+		807D0445177560710096F899 /* USUCSAddNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 807D0443177560710096F899 /* USUCSAddNewsViewController.xib */; };
+		807D0447177572870096F899 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807D0446177572870096F899 /* MessageUI.framework */; };
+		80CD7300176E1D9200C6F8DF /* USUCSNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CD72FE176E1D9200C6F8DF /* USUCSNewsViewController.m */; };
+		80CD7301176E1D9200C6F8DF /* USUCSNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80CD72FF176E1D9200C6F8DF /* USUCSNewsViewController.xib */; };
+		80CD7303176EB39F00C6F8DF /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CD7302176EB39F00C6F8DF /* Social.framework */; };
+		80CD7307176EB85B00C6F8DF /* USUCSFacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CD7305176EB85B00C6F8DF /* USUCSFacebookViewController.m */; };
+		80CD7308176EB85B00C6F8DF /* USUCSFacebookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80CD7306176EB85B00C6F8DF /* USUCSFacebookViewController.xib */; };
+		80CD7311176ECC5D00C6F8DF /* USUCSLinkedInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CD730F176ECC5D00C6F8DF /* USUCSLinkedInViewController.m */; };
+		80CD7312176ECC5D00C6F8DF /* USUCSLinkedInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80CD7310176ECC5D00C6F8DF /* USUCSLinkedInViewController.xib */; };
+		80CD7314176ECE4300C6F8DF /* logo_linkedin_92x22.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CD7313176ECE4300C6F8DF /* logo_linkedin_92x22.png */; };
+		80CD7316176ECE8400C6F8DF /* 102-Facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CD7315176ECE8400C6F8DF /* 102-Facebook@2x.png */; };
+		80CD7318176ED05B00C6F8DF /* logo-linkedin-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CD7317176ED05B00C6F8DF /* logo-linkedin-small.png */; };
+		80CD731A176ED0CB00C6F8DF /* linkedin_logo_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CD7319176ED0CB00C6F8DF /* linkedin_logo_small.png */; };
+		80CD731C176FFDD900C6F8DF /* linkedin_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CD731B176FFDD800C6F8DF /* linkedin_logo.png */; };
+		80CD732617700BEB00C6F8DF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CD732517700BEB00C6F8DF /* MapKit.framework */; };
+		80CD73281770117400C6F8DF /* 35Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CD73271770117400C6F8DF /* 35Map.png */; };
+		80CD732B1770148000C6F8DF /* MyPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CD732A1770148000C6F8DF /* MyPoint.m */; };
+		80CD732F177019C900C6F8DF /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CD732D177019C900C6F8DF /* MapViewController.m */; };
+		80CD7330177019C900C6F8DF /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80CD732E177019C900C6F8DF /* MapViewController.xib */; };
+		80CD7332177027E000C6F8DF /* 17f.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CD7331177027E000C6F8DF /* 17f.png */; };
+		80E405DD1772D37D00FDBFA4 /* 58t.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E405DC1772D37D00FDBFA4 /* 58t.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		803280DE1773E997001C2EEE /* ComputerScienceDepartment-cs.usu.edu_kaywa.me_in9PO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ComputerScienceDepartment-cs.usu.edu_kaywa.me_in9PO.png"; sourceTree = "<group>"; };
+		806F16A717697A0D00667E08 /* CSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSHomeViewController.h; path = ../CSHomeViewController.h; sourceTree = "<group>"; };
+		806F16A817697A0D00667E08 /* CSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSHomeViewController.m; path = ../CSHomeViewController.m; sourceTree = "<group>"; };
+		806F16A917697A0D00667E08 /* CSHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CSHomeViewController.xib; path = ../CSHomeViewController.xib; sourceTree = "<group>"; };
+		806F16AE17697E7500667E08 /* computer_science_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = computer_science_logo.png; sourceTree = "<group>"; };
+		806F16AF17697E7500667E08 /* USU_horizontal_stacked_logo_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = USU_horizontal_stacked_logo_black.png; sourceTree = "<group>"; };
+		806F16B6176982B100667E08 /* cs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cs.png; sourceTree = "<group>"; };
+		806F16B7176982B100667E08 /* WelcomeLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WelcomeLogo.png; sourceTree = "<group>"; };
+		806F16BA176986C700667E08 /* 47-fuel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "47-fuel.png"; sourceTree = "<group>"; };
+		806F16BB176986C700667E08 /* 86-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "86-camera.png"; sourceTree = "<group>"; };
+		8075198E1766DBFA00C78B64 /* ComputerScienceUSU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComputerScienceUSU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		807519911766DBFA00C78B64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		807519931766DBFA00C78B64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		807519951766DBFA00C78B64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		807519991766DBFA00C78B64 /* ComputerScienceUSU-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ComputerScienceUSU-Info.plist"; sourceTree = "<group>"; };
+		8075199B1766DBFA00C78B64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8075199D1766DBFA00C78B64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8075199F1766DBFA00C78B64 /* ComputerScienceUSU-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ComputerScienceUSU-Prefix.pch"; sourceTree = "<group>"; };
+		807519A01766DBFA00C78B64 /* USUCSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USUCSAppDelegate.h; sourceTree = "<group>"; };
+		807519A11766DBFA00C78B64 /* USUCSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USUCSAppDelegate.m; sourceTree = "<group>"; };
+		807519A31766DBFA00C78B64 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		807519A51766DBFA00C78B64 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		807519A71766DBFA00C78B64 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		807519A91766DBFA00C78B64 /* USUCSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USUCSViewController.h; sourceTree = "<group>"; };
+		807519AA1766DBFA00C78B64 /* USUCSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USUCSViewController.m; sourceTree = "<group>"; };
+		807519AD1766DBFA00C78B64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/USUCSViewController.xib; sourceTree = "<group>"; };
+		807D040C177420DF0096F899 /* USUCSAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USUCSAboutViewController.h; sourceTree = "<group>"; };
+		807D040D177420DF0096F899 /* USUCSAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USUCSAboutViewController.m; sourceTree = "<group>"; };
+		807D040E177420DF0096F899 /* USUCSAboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = USUCSAboutViewController.xib; sourceTree = "<group>"; };
+		807D0411177423E80096F899 /* USUCSChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USUCSChatViewController.h; sourceTree = "<group>"; };
+		807D0412177423E80096F899 /* USUCSChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USUCSChatViewController.m; sourceTree = "<group>"; };
+		807D0413177423E80096F899 /* USUCSChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = USUCSChatViewController.xib; sourceTree = "<group>"; };
+		807D0416177425EF0096F899 /* StreamCom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamCom.h; sourceTree = "<group>"; };
+		807D0417177425EF0096F899 /* StreamCom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamCom.m; sourceTree = "<group>"; };
+		807D0419177431610096F899 /* USUCSProgramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USUCSProgramViewController.h; sourceTree = "<group>"; };
+		807D041A177431610096F899 /* USUCSProgramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USUCSProgramViewController.m; sourceTree = "<group>"; };
+		807D041B177431610096F899 /* USUCSProgramViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = USUCSProgramViewController.xib; sourceTree = "<group>"; };
+		807D041E177431750096F899 /* USUCSResearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USUCSResearchViewController.h; sourceTree = "<group>"; };
+		807D041F177431760096F899 /* USUCSResearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USUCSResearchViewController.m; sourceTree = "<group>"; };
+		807D0420177431760096F899 /* USUCSResearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = USUCSResearchViewController.xib; sourceTree = "<group>"; };
+		807D0423177431860096F899 /* USUCSPeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USUCSPeopleViewController.h; sourceTree = "<group>"; };
+		807D0424177431860096F899 /* USUCSPeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USUCSPeopleViewController.m; sourceTree = "<group>"; };
+		807D0425177431860096F899 /* USUCSPeopleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = USUCSPeopleViewController.xib; sourceTree = "<group>"; };
+		807D0428177431940096F899 /* USUCSCourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USUCSCourseViewController.h; sourceTree = "<group>"; };
+		807D0429177431940096F899 /* USUCSCourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USUCSCourseViewController.m; sourceTree = "<group>"; };
+		807D042A177431940096F899 /* USUCSCourseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = USUCSCourseViewController.xib; sourceTree = "<group>"; };
+		807D042D177431A30096F899 /* USUCSContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USUCSContactViewController.h; sourceTree = "<group>"; };
+		807D042E177431A30096F899 /* USUCSContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USUCSContactViewController.m; sourceTree = "<group>"; };
+		807D042F177431A30096F899 /* USUCSContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = USUCSContactViewController.xib; sourceTree = "<group>"; };
+		807D043817754AE90096F899 /* MS-images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "MS-images.jpeg"; sourceTree = "<group>"; };
+		807D043917754AE90096F899 /* PHD-image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PHD-image.jpeg"; sourceTree = "<group>"; };
+		807D043C17754CBF0096F899 /* ProDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProDetailedViewController.h; path = ../ProDetailedViewController.h; sourceTree = "<group>"; };
+		807D043D17754CBF0096F899 /* ProDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProDetailedViewController.m; path = ../ProDetailedViewController.m; sourceTree = "<group>"; };
+		807D043E17754CBF0096F899 /* ProDetailedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProDetailedViewController.xib; path = ../ProDetailedViewController.xib; sourceTree = "<group>"; };
+		807D0441177560710096F899 /* USUCSAddNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USUCSAddNewsViewController.h; sourceTree = "<group>"; };
+		807D0442177560710096F899 /* USUCSAddNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USUCSAddNewsViewController.m; sourceTree = "<group>"; };
+		807D0443177560710096F899 /* USUCSAddNewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = USUCSAddNewsViewController.xib; sourceTree = "<group>"; };
+		807D0446177572870096F899 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		80CD72FD176E1D9200C6F8DF /* USUCSNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USUCSNewsViewController.h; sourceTree = "<group>"; };
+		80CD72FE176E1D9200C6F8DF /* USUCSNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USUCSNewsViewController.m; sourceTree = "<group>"; };
+		80CD72FF176E1D9200C6F8DF /* USUCSNewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = USUCSNewsViewController.xib; sourceTree = "<group>"; };
+		80CD7302176EB39F00C6F8DF /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		80CD7304176EB85B00C6F8DF /* USUCSFacebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USUCSFacebookViewController.h; sourceTree = "<group>"; };
+		80CD7305176EB85B00C6F8DF /* USUCSFacebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USUCSFacebookViewController.m; sourceTree = "<group>"; };
+		80CD7306176EB85B00C6F8DF /* USUCSFacebookViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = USUCSFacebookViewController.xib; sourceTree = "<group>"; };
+		80CD730E176ECC5D00C6F8DF /* USUCSLinkedInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USUCSLinkedInViewController.h; sourceTree = "<group>"; };
+		80CD730F176ECC5D00C6F8DF /* USUCSLinkedInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USUCSLinkedInViewController.m; sourceTree = "<group>"; };
+		80CD7310176ECC5D00C6F8DF /* USUCSLinkedInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = USUCSLinkedInViewController.xib; sourceTree = "<group>"; };
+		80CD7313176ECE4300C6F8DF /* logo_linkedin_92x22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_linkedin_92x22.png; path = ComputerScienceUSU/logo_linkedin_92x22.png; sourceTree = "<group>"; };
+		80CD7315176ECE8400C6F8DF /* 102-Facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "102-Facebook@2x.png"; sourceTree = "<group>"; };
+		80CD7317176ED05B00C6F8DF /* logo-linkedin-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-linkedin-small.png"; path = "ComputerScienceUSU/logo-linkedin-small.png"; sourceTree = "<group>"; };
+		80CD7319176ED0CB00C6F8DF /* linkedin_logo_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = linkedin_logo_small.png; path = ComputerScienceUSU/linkedin_logo_small.png; sourceTree = "<group>"; };
+		80CD731B176FFDD800C6F8DF /* linkedin_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = linkedin_logo.png; path = ComputerScienceUSU/linkedin_logo.png; sourceTree = "<group>"; };
+		80CD732517700BEB00C6F8DF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		80CD73271770117400C6F8DF /* 35Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 35Map.png; path = ComputerScienceUSU/35Map.png; sourceTree = "<group>"; };
+		80CD73291770148000C6F8DF /* MyPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPoint.h; sourceTree = "<group>"; };
+		80CD732A1770148000C6F8DF /* MyPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPoint.m; sourceTree = "<group>"; };
+		80CD732C177019C800C6F8DF /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		80CD732D177019C900C6F8DF /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		80CD732E177019C900C6F8DF /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		80CD7331177027E000C6F8DF /* 17f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 17f.png; path = ComputerScienceUSU/17f.png; sourceTree = "<group>"; };
+		80E405DC1772D37D00FDBFA4 /* 58t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 58t.png; path = ComputerScienceUSU/58t.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8075198B1766DBFA00C78B64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807D0447177572870096F899 /* MessageUI.framework in Frameworks */,
+				80CD732617700BEB00C6F8DF /* MapKit.framework in Frameworks */,
+				80CD7303176EB39F00C6F8DF /* Social.framework in Frameworks */,
+				807519921766DBFA00C78B64 /* UIKit.framework in Frameworks */,
+				807519941766DBFA00C78B64 /* Foundation.framework in Frameworks */,
+				807519961766DBFA00C78B64 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		807519851766DBF900C78B64 = {
+			isa = PBXGroup;
+			children = (
+				807D043817754AE90096F899 /* MS-images.jpeg */,
+				807D043917754AE90096F899 /* PHD-image.jpeg */,
+				803280DE1773E997001C2EEE /* ComputerScienceDepartment-cs.usu.edu_kaywa.me_in9PO.png */,
+				80E405DC1772D37D00FDBFA4 /* 58t.png */,
+				80CD7331177027E000C6F8DF /* 17f.png */,
+				80CD73271770117400C6F8DF /* 35Map.png */,
+				80CD731B176FFDD800C6F8DF /* linkedin_logo.png */,
+				80CD7319176ED0CB00C6F8DF /* linkedin_logo_small.png */,
+				80CD7317176ED05B00C6F8DF /* logo-linkedin-small.png */,
+				80CD7315176ECE8400C6F8DF /* 102-Facebook@2x.png */,
+				80CD7313176ECE4300C6F8DF /* logo_linkedin_92x22.png */,
+				806F16BA176986C700667E08 /* 47-fuel.png */,
+				806F16BB176986C700667E08 /* 86-camera.png */,
+				806F16B6176982B100667E08 /* cs.png */,
+				806F16B7176982B100667E08 /* WelcomeLogo.png */,
+				806F16AE17697E7500667E08 /* computer_science_logo.png */,
+				806F16AF17697E7500667E08 /* USU_horizontal_stacked_logo_black.png */,
+				807519971766DBFA00C78B64 /* ComputerScienceUSU */,
+				807519901766DBFA00C78B64 /* Frameworks */,
+				8075198F1766DBFA00C78B64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8075198F1766DBFA00C78B64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8075198E1766DBFA00C78B64 /* ComputerScienceUSU.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		807519901766DBFA00C78B64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				807D0446177572870096F899 /* MessageUI.framework */,
+				80CD732517700BEB00C6F8DF /* MapKit.framework */,
+				80CD7302176EB39F00C6F8DF /* Social.framework */,
+				807519911766DBFA00C78B64 /* UIKit.framework */,
+				807519931766DBFA00C78B64 /* Foundation.framework */,
+				807519951766DBFA00C78B64 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		807519971766DBFA00C78B64 /* ComputerScienceUSU */ = {
+			isa = PBXGroup;
+			children = (
+				807D043C17754CBF0096F899 /* ProDetailedViewController.h */,
+				807D043D17754CBF0096F899 /* ProDetailedViewController.m */,
+				807D043E17754CBF0096F899 /* ProDetailedViewController.xib */,
+				807D0416177425EF0096F899 /* StreamCom.h */,
+				807D0417177425EF0096F899 /* StreamCom.m */,
+				80CD732C177019C800C6F8DF /* MapViewController.h */,
+				80CD732D177019C900C6F8DF /* MapViewController.m */,
+				80CD732E177019C900C6F8DF /* MapViewController.xib */,
+				80CD73291770148000C6F8DF /* MyPoint.h */,
+				80CD732A1770148000C6F8DF /* MyPoint.m */,
+				807519A01766DBFA00C78B64 /* USUCSAppDelegate.h */,
+				807519A11766DBFA00C78B64 /* USUCSAppDelegate.m */,
+				806F16A717697A0D00667E08 /* CSHomeViewController.h */,
+				806F16A817697A0D00667E08 /* CSHomeViewController.m */,
+				806F16A917697A0D00667E08 /* CSHomeViewController.xib */,
+				807519A91766DBFA00C78B64 /* USUCSViewController.h */,
+				807519AA1766DBFA00C78B64 /* USUCSViewController.m */,
+				807519AC1766DBFA00C78B64 /* USUCSViewController.xib */,
+				80CD72FD176E1D9200C6F8DF /* USUCSNewsViewController.h */,
+				80CD72FE176E1D9200C6F8DF /* USUCSNewsViewController.m */,
+				80CD72FF176E1D9200C6F8DF /* USUCSNewsViewController.xib */,
+				807D0441177560710096F899 /* USUCSAddNewsViewController.h */,
+				807D0442177560710096F899 /* USUCSAddNewsViewController.m */,
+				807D0443177560710096F899 /* USUCSAddNewsViewController.xib */,
+				80CD7304176EB85B00C6F8DF /* USUCSFacebookViewController.h */,
+				80CD7305176EB85B00C6F8DF /* USUCSFacebookViewController.m */,
+				80CD7306176EB85B00C6F8DF /* USUCSFacebookViewController.xib */,
+				80CD730E176ECC5D00C6F8DF /* USUCSLinkedInViewController.h */,
+				80CD730F176ECC5D00C6F8DF /* USUCSLinkedInViewController.m */,
+				80CD7310176ECC5D00C6F8DF /* USUCSLinkedInViewController.xib */,
+				807519981766DBFA00C78B64 /* Supporting Files */,
+				807D040C177420DF0096F899 /* USUCSAboutViewController.h */,
+				807D040D177420DF0096F899 /* USUCSAboutViewController.m */,
+				807D040E177420DF0096F899 /* USUCSAboutViewController.xib */,
+				807D0411177423E80096F899 /* USUCSChatViewController.h */,
+				807D0412177423E80096F899 /* USUCSChatViewController.m */,
+				807D0413177423E80096F899 /* USUCSChatViewController.xib */,
+				807D0419177431610096F899 /* USUCSProgramViewController.h */,
+				807D041A177431610096F899 /* USUCSProgramViewController.m */,
+				807D041B177431610096F899 /* USUCSProgramViewController.xib */,
+				807D041E177431750096F899 /* USUCSResearchViewController.h */,
+				807D041F177431760096F899 /* USUCSResearchViewController.m */,
+				807D0420177431760096F899 /* USUCSResearchViewController.xib */,
+				807D0423177431860096F899 /* USUCSPeopleViewController.h */,
+				807D0424177431860096F899 /* USUCSPeopleViewController.m */,
+				807D0425177431860096F899 /* USUCSPeopleViewController.xib */,
+				807D0428177431940096F899 /* USUCSCourseViewController.h */,
+				807D0429177431940096F899 /* USUCSCourseViewController.m */,
+				807D042A177431940096F899 /* USUCSCourseViewController.xib */,
+				807D042D177431A30096F899 /* USUCSContactViewController.h */,
+				807D042E177431A30096F899 /* USUCSContactViewController.m */,
+				807D042F177431A30096F899 /* USUCSContactViewController.xib */,
+			);
+			path = ComputerScienceUSU;
+			sourceTree = "<group>";
+		};
+		807519981766DBFA00C78B64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				807519991766DBFA00C78B64 /* ComputerScienceUSU-Info.plist */,
+				8075199A1766DBFA00C78B64 /* InfoPlist.strings */,
+				8075199D1766DBFA00C78B64 /* main.m */,
+				8075199F1766DBFA00C78B64 /* ComputerScienceUSU-Prefix.pch */,
+				807519A31766DBFA00C78B64 /* Default.png */,
+				807519A51766DBFA00C78B64 /* Default@2x.png */,
+				807519A71766DBFA00C78B64 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8075198D1766DBFA00C78B64 /* ComputerScienceUSU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807519B11766DBFA00C78B64 /* Build configuration list for PBXNativeTarget "ComputerScienceUSU" */;
+			buildPhases = (
+				8075198A1766DBFA00C78B64 /* Sources */,
+				8075198B1766DBFA00C78B64 /* Frameworks */,
+				8075198C1766DBFA00C78B64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComputerScienceUSU;
+			productName = ComputerScienceUSU;
+			productReference = 8075198E1766DBFA00C78B64 /* ComputerScienceUSU.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		807519861766DBF900C78B64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = USUCS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = CS6890;
+			};
+			buildConfigurationList = 807519891766DBFA00C78B64 /* Build configuration list for PBXProject "ComputerScienceUSU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 807519851766DBF900C78B64;
+			productRefGroup = 8075198F1766DBFA00C78B64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8075198D1766DBFA00C78B64 /* ComputerScienceUSU */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8075198C1766DBFA00C78B64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8075199C1766DBFA00C78B64 /* InfoPlist.strings in Resources */,
+				807519A41766DBFA00C78B64 /* Default.png in Resources */,
+				807519A61766DBFA00C78B64 /* Default@2x.png in Resources */,
+				807519A81766DBFA00C78B64 /* Default-568h@2x.png in Resources */,
+				807519AE1766DBFA00C78B64 /* USUCSViewController.xib in Resources */,
+				806F16AB17697A0D00667E08 /* CSHomeViewController.xib in Resources */,
+				806F16B017697E7500667E08 /* computer_science_logo.png in Resources */,
+				806F16B117697E7500667E08 /* USU_horizontal_stacked_logo_black.png in Resources */,
+				806F16B8176982B100667E08 /* cs.png in Resources */,
+				806F16B9176982B100667E08 /* WelcomeLogo.png in Resources */,
+				806F16BC176986C700667E08 /* 47-fuel.png in Resources */,
+				806F16BD176986C700667E08 /* 86-camera.png in Resources */,
+				80CD7301176E1D9200C6F8DF /* USUCSNewsViewController.xib in Resources */,
+				80CD7308176EB85B00C6F8DF /* USUCSFacebookViewController.xib in Resources */,
+				80CD7312176ECC5D00C6F8DF /* USUCSLinkedInViewController.xib in Resources */,
+				80CD7314176ECE4300C6F8DF /* logo_linkedin_92x22.png in Resources */,
+				80CD7316176ECE8400C6F8DF /* 102-Facebook@2x.png in Resources */,
+				80CD7318176ED05B00C6F8DF /* logo-linkedin-small.png in Resources */,
+				80CD731A176ED0CB00C6F8DF /* linkedin_logo_small.png in Resources */,
+				80CD731C176FFDD900C6F8DF /* linkedin_logo.png in Resources */,
+				80CD73281770117400C6F8DF /* 35Map.png in Resources */,
+				80CD7330177019C900C6F8DF /* MapViewController.xib in Resources */,
+				80CD7332177027E000C6F8DF /* 17f.png in Resources */,
+				80E405DD1772D37D00FDBFA4 /* 58t.png in Resources */,
+				803280DF1773E997001C2EEE /* ComputerScienceDepartment-cs.usu.edu_kaywa.me_in9PO.png in Resources */,
+				807D0410177420DF0096F899 /* USUCSAboutViewController.xib in Resources */,
+				807D0415177423E80096F899 /* USUCSChatViewController.xib in Resources */,
+				807D041D177431610096F899 /* USUCSProgramViewController.xib in Resources */,
+				807D0422177431760096F899 /* USUCSResearchViewController.xib in Resources */,
+				807D0427177431860096F899 /* USUCSPeopleViewController.xib in Resources */,
+				807D042C177431940096F899 /* USUCSCourseViewController.xib in Resources */,
+				807D0431177431A30096F899 /* USUCSContactViewController.xib in Resources */,
+				807D043A17754AE90096F899 /* MS-images.jpeg in Resources */,
+				807D043B17754AE90096F899 /* PHD-image.jpeg in Resources */,
+				807D044017754CBF0096F899 /* ProDetailedViewController.xib in Resources */,
+				807D0445177560710096F899 /* USUCSAddNewsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8075198A1766DBFA00C78B64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8075199E1766DBFA00C78B64 /* main.m in Sources */,
+				807519A21766DBFA00C78B64 /* USUCSAppDelegate.m in Sources */,
+				807519AB1766DBFA00C78B64 /* USUCSViewController.m in Sources */,
+				806F16AA17697A0D00667E08 /* CSHomeViewController.m in Sources */,
+				80CD7300176E1D9200C6F8DF /* USUCSNewsViewController.m in Sources */,
+				80CD7307176EB85B00C6F8DF /* USUCSFacebookViewController.m in Sources */,
+				80CD7311176ECC5D00C6F8DF /* USUCSLinkedInViewController.m in Sources */,
+				80CD732B1770148000C6F8DF /* MyPoint.m in Sources */,
+				80CD732F177019C900C6F8DF /* MapViewController.m in Sources */,
+				807D040F177420DF0096F899 /* USUCSAboutViewController.m in Sources */,
+				807D0414177423E80096F899 /* USUCSChatViewController.m in Sources */,
+				807D0418177425EF0096F899 /* StreamCom.m in Sources */,
+				807D041C177431610096F899 /* USUCSProgramViewController.m in Sources */,
+				807D0421177431760096F899 /* USUCSResearchViewController.m in Sources */,
+				807D0426177431860096F899 /* USUCSPeopleViewController.m in Sources */,
+				807D042B177431940096F899 /* USUCSCourseViewController.m in Sources */,
+				807D0430177431A30096F899 /* USUCSContactViewController.m in Sources */,
+				807D043F17754CBF0096F899 /* ProDetailedViewController.m in Sources */,
+				807D0444177560710096F899 /* USUCSAddNewsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8075199A1766DBFA00C78B64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8075199B1766DBFA00C78B64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		807519AC1766DBFA00C78B64 /* USUCSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				807519AD1766DBFA00C78B64 /* en */,
+			);
+			name = USUCSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		807519AF1766DBFA00C78B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		807519B01766DBFA00C78B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		807519B21766DBFA00C78B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComputerScienceUSU/ComputerScienceUSU-Prefix.pch";
+				INFOPLIST_FILE = "ComputerScienceUSU/ComputerScienceUSU-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		807519B31766DBFA00C78B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComputerScienceUSU/ComputerScienceUSU-Prefix.pch";
+				INFOPLIST_FILE = "ComputerScienceUSU/ComputerScienceUSU-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		807519891766DBFA00C78B64 /* Build configuration list for PBXProject "ComputerScienceUSU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807519AF1766DBFA00C78B64 /* Debug */,
+				807519B01766DBFA00C78B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		807519B11766DBFA00C78B64 /* Build configuration list for PBXNativeTarget "ComputerScienceUSU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807519B21766DBFA00C78B64 /* Debug */,
+				807519B31766DBFA00C78B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 807519861766DBF900C78B64 /* Project object */;
+}
