@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80FD7FCD175D8FE10052E3ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FD7FCC175D8FE10052E3ED /* UIKit.framework */; };
+		80FD7FCF175D8FE10052E3ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FD7FCE175D8FE10052E3ED /* Foundation.framework */; };
+		80FD7FD1175D8FE10052E3ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FD7FD0175D8FE10052E3ED /* CoreGraphics.framework */; };
+		80FD7FD7175D8FE10052E3ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80FD7FD5175D8FE10052E3ED /* InfoPlist.strings */; };
+		80FD7FD9175D8FE10052E3ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FD7FD8175D8FE10052E3ED /* main.m */; };
+		80FD7FDD175D8FE10052E3ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FD7FDC175D8FE10052E3ED /* AppDelegate.m */; };
+		80FD7FDF175D8FE10052E3ED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 80FD7FDE175D8FE10052E3ED /* Default.png */; };
+		80FD7FE1175D8FE10052E3ED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80FD7FE0175D8FE10052E3ED /* Default@2x.png */; };
+		80FD7FE3175D8FE10052E3ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80FD7FE2175D8FE10052E3ED /* Default-568h@2x.png */; };
+		80FD7FE6175D8FE20052E3ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FD7FE5175D8FE20052E3ED /* ViewController.m */; };
+		80FD7FE9175D8FE20052E3ED /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80FD7FE7175D8FE20052E3ED /* ViewController.xib */; };
+		80FE19AE175E40800058CD85 /* example.txt in Resources */ = {isa = PBXBuildFile; fileRef = 80FE19AD175E40800058CD85 /* example.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		80FD7FC9175D8FE10052E3ED /* Weibing_A007_NoteTaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weibing_A007_NoteTaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FD7FCC175D8FE10052E3ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80FD7FCE175D8FE10052E3ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80FD7FD0175D8FE10052E3ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		80FD7FD4175D8FE10052E3ED /* Weibing_A007_NoteTaker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Weibing_A007_NoteTaker-Info.plist"; sourceTree = "<group>"; };
+		80FD7FD6175D8FE10052E3ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80FD7FD8175D8FE10052E3ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80FD7FDA175D8FE10052E3ED /* Weibing_A007_NoteTaker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Weibing_A007_NoteTaker-Prefix.pch"; sourceTree = "<group>"; };
+		80FD7FDB175D8FE10052E3ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80FD7FDC175D8FE10052E3ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80FD7FDE175D8FE10052E3ED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		80FD7FE0175D8FE10052E3ED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		80FD7FE2175D8FE10052E3ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		80FD7FE4175D8FE20052E3ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80FD7FE5175D8FE20052E3ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80FD7FE8175D8FE20052E3ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		80FE19AD175E40800058CD85 /* example.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = example.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80FD7FC6175D8FE10052E3ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FD7FCD175D8FE10052E3ED /* UIKit.framework in Frameworks */,
+				80FD7FCF175D8FE10052E3ED /* Foundation.framework in Frameworks */,
+				80FD7FD1175D8FE10052E3ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80FD7FC0175D8FE10052E3ED = {
+			isa = PBXGroup;
+			children = (
+				80FE19AD175E40800058CD85 /* example.txt */,
+				80FD7FD2175D8FE10052E3ED /* Weibing_A007_NoteTaker */,
+				80FD7FCB175D8FE10052E3ED /* Frameworks */,
+				80FD7FCA175D8FE10052E3ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80FD7FCA175D8FE10052E3ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80FD7FC9175D8FE10052E3ED /* Weibing_A007_NoteTaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80FD7FCB175D8FE10052E3ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80FD7FCC175D8FE10052E3ED /* UIKit.framework */,
+				80FD7FCE175D8FE10052E3ED /* Foundation.framework */,
+				80FD7FD0175D8FE10052E3ED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80FD7FD2175D8FE10052E3ED /* Weibing_A007_NoteTaker */ = {
+			isa = PBXGroup;
+			children = (
+				80FD7FDB175D8FE10052E3ED /* AppDelegate.h */,
+				80FD7FDC175D8FE10052E3ED /* AppDelegate.m */,
+				80FD7FE4175D8FE20052E3ED /* ViewController.h */,
+				80FD7FE5175D8FE20052E3ED /* ViewController.m */,
+				80FD7FE7175D8FE20052E3ED /* ViewController.xib */,
+				80FD7FD3175D8FE10052E3ED /* Supporting Files */,
+			);
+			path = Weibing_A007_NoteTaker;
+			sourceTree = "<group>";
+		};
+		80FD7FD3175D8FE10052E3ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80FD7FD4175D8FE10052E3ED /* Weibing_A007_NoteTaker-Info.plist */,
+				80FD7FD5175D8FE10052E3ED /* InfoPlist.strings */,
+				80FD7FD8175D8FE10052E3ED /* main.m */,
+				80FD7FDA175D8FE10052E3ED /* Weibing_A007_NoteTaker-Prefix.pch */,
+				80FD7FDE175D8FE10052E3ED /* Default.png */,
+				80FD7FE0175D8FE10052E3ED /* Default@2x.png */,
+				80FD7FE2175D8FE10052E3ED /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80FD7FC8175D8FE10052E3ED /* Weibing_A007_NoteTaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FD7FEC175D8FE20052E3ED /* Build configuration list for PBXNativeTarget "Weibing_A007_NoteTaker" */;
+			buildPhases = (
+				80FD7FC5175D8FE10052E3ED /* Sources */,
+				80FD7FC6175D8FE10052E3ED /* Frameworks */,
+				80FD7FC7175D8FE10052E3ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weibing_A007_NoteTaker;
+			productName = Weibing_A007_NoteTaker;
+			productReference = 80FD7FC9175D8FE10052E3ED /* Weibing_A007_NoteTaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80FD7FC1175D8FE10052E3ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = CS6890;
+			};
+			buildConfigurationList = 80FD7FC4175D8FE10052E3ED /* Build configuration list for PBXProject "Weibing_A007_NoteTaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80FD7FC0175D8FE10052E3ED;
+			productRefGroup = 80FD7FCA175D8FE10052E3ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80FD7FC8175D8FE10052E3ED /* Weibing_A007_NoteTaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80FD7FC7175D8FE10052E3ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FD7FD7175D8FE10052E3ED /* InfoPlist.strings in Resources */,
+				80FD7FDF175D8FE10052E3ED /* Default.png in Resources */,
+				80FD7FE1175D8FE10052E3ED /* Default@2x.png in Resources */,
+				80FD7FE3175D8FE10052E3ED /* Default-568h@2x.png in Resources */,
+				80FD7FE9175D8FE20052E3ED /* ViewController.xib in Resources */,
+				80FE19AE175E40800058CD85 /* example.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80FD7FC5175D8FE10052E3ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FD7FD9175D8FE10052E3ED /* main.m in Sources */,
+				80FD7FDD175D8FE10052E3ED /* AppDelegate.m in Sources */,
+				80FD7FE6175D8FE20052E3ED /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80FD7FD5175D8FE10052E3ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80FD7FD6175D8FE10052E3ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		80FD7FE7175D8FE20052E3ED /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80FD7FE8175D8FE20052E3ED /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80FD7FEA175D8FE20052E3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		80FD7FEB175D8FE20052E3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80FD7FED175D8FE20052E3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Weibing_A007_NoteTaker/Weibing_A007_NoteTaker-Prefix.pch";
+				INFOPLIST_FILE = "Weibing_A007_NoteTaker/Weibing_A007_NoteTaker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		80FD7FEE175D8FE20052E3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Weibing_A007_NoteTaker/Weibing_A007_NoteTaker-Prefix.pch";
+				INFOPLIST_FILE = "Weibing_A007_NoteTaker/Weibing_A007_NoteTaker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80FD7FC4175D8FE10052E3ED /* Build configuration list for PBXProject "Weibing_A007_NoteTaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FD7FEA175D8FE20052E3ED /* Debug */,
+				80FD7FEB175D8FE20052E3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80FD7FEC175D8FE20052E3ED /* Build configuration list for PBXNativeTarget "Weibing_A007_NoteTaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FD7FED175D8FE20052E3ED /* Debug */,
+				80FD7FEE175D8FE20052E3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80FD7FC1175D8FE10052E3ED /* Project object */;
+}
